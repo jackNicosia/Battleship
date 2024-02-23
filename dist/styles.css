@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-image: url("../imgs/waterpic.jpg");
+  background-repeat: repeat;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+
+.gameboard {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Creates a 10x10 grid */
+  grid-gap: 1px;
+  width: 500px;
+  height: 500px;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.gameboard div {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  border: 1px solid #000;
+}
